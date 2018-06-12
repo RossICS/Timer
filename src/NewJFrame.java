@@ -120,7 +120,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void btnCountdownMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCountdownMouseClicked
         count = 10;
-        countdownTimer = new Timer(1000,new ActionListener() {
+        countdownTimer = new Timer(2000,new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 lblCountdown.setText(Integer.toString(count));
                 count = count -1;
